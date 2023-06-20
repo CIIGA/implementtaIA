@@ -1,0 +1,40 @@
+body {
+  background-image: url(img/back.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+.navbar {
+  /* background-color: rgba(36, 33, 33, 0.5); /* Fondo del menú difuminado */
+  /* background: linear-gradient(#000, #282c33); */
+ /* background: linear-gradient(to top, #3a3b3e, #3a3b3e); */
+  position: sticky;
+      top: 0;
+      z-index: 999;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding-left: 15px;
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+.cody-container {
+   
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.cody-container iframe {
+    margin-top: 2%;
+  min-height: 700px;
+  height: 100%;
+  margin-bottom: 0%;
+}
+main {
+  background: linear-gradient(#3a3b3e, #ffffff);
+  opacity: 0.6;
+}
